@@ -16,6 +16,8 @@ license = {text = "MIT"}
 requires = ["pdm-backend"]
 build-backend = "pdm.backend"
 
+[tool.pdm.scripts]
+start = "fastapi run src/task4_web_dev/main.py"
 
 [tool.pdm]
 distribution = true
